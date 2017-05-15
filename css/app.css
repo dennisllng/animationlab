@@ -1,0 +1,272 @@
+h1 {
+    padding: 20px;
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+}
+
+h4 {
+    margin: auto;
+    font-size: 15px;
+    text-align: center;
+}
+
+.oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.ssp {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+audio {
+    display: none;
+}
+
+.white {
+    color: white;
+}
+
+a.text{
+  color: #fff;
+    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+    text-decoration: none;
+
+}
+
+
+/* /// RESPONSIVE NAVBAR /// */
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.topnav a:hover {
+    background-color: red;
+    color: black;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+@keyframes one {
+    0% {
+        opacity: 0;
+    }
+    12% {
+        opacity: 1;
+    }
+}
+
+@keyframes two {
+    0% {
+        opacity: 0;
+    }
+    8% {
+        opacity: 0;
+    }
+    22% {
+        opacity: 1;
+    }
+}
+
+@keyframes three {
+    0% {
+        opacity: 0;
+    }
+    18% {
+        opacity: 0;
+    }
+    32% {
+        opacity: 1;
+    }
+}
+
+@keyframes four {
+    0% {
+        opacity: 0;
+    }
+    28% {
+        opacity: 0;
+    }
+    42% {
+        opacity: 1;
+    }
+}
+
+@keyframes five {
+    0% {
+        opacity: 0;
+    }
+    38% {
+        opacity: 0;
+    }
+    52% {
+        opacity: 1;
+    }
+}
+
+@keyframes six {
+    0% {
+        opacity: 0;
+    }
+    48% {
+        opacity: 0;
+    }
+    52% {
+        opacity: 1;
+    }
+}
+
+@keyframes seven {
+    0% {
+        opacity: 0;
+    }
+    58% {
+        opacity: 0;
+    }
+    62% {
+        opacity: 1;
+    }
+}
+
+@keyframes eight {
+    0% {
+        opacity: 0;
+    }
+    68% {
+        opacity: 0;
+    }
+    72% {
+        opacity: 1;
+    }
+}
+
+.gradient-1 {
+    background: linear-gradient(5deg, #5d4635, #392c24 20%, #1f1713 50%, #120c0b 75%, #090605);
+}
+
+.gradient-2 {
+    animation: one 60s;
+    background: linear-gradient(4deg, #ae6c41, #9d7659 8%, #524442 15%, #2f221f 30%, #090605);
+}
+
+.gradient-3 {
+    animation: two 60s;
+    background: linear-gradient(4deg, #fd9d6a, #fdb56a 3%, #faf6de 10%, #cfc8d0 20%, #73697d 30%, #2e2230 45%, #251f2b 70%, #0a060d);
+}
+
+.gradient-4 {
+    animation: three 60s;
+    background: linear-gradient(3deg, #fffa82, #fefed8 5%, #f8e7e6 15%, #b4b0c6 30%, #4f4d64 50%, #433f53 70%, #262437);
+}
+
+.gradient-5 {
+    animation: four 60s;
+    background: linear-gradient(3deg, #ee9451, #facc81 5%, #fdfae0 15%, #e1d8ce 30%, #9b7c7e 50%, #625956 70%, #31252d);
+}
+
+.gradient-6 {
+    animation: five 60s;
+    background: linear-gradient(3deg, #e5945d, #fdc77f 5%, #f9dca0 10%, #dfdbc8 15%, #b7beb9 30%, #707277 60%, #4a474c);
+}
+
+.gradient-7 {
+    animation: six 60s;
+    background: linear-gradient(2deg, #faefd0, #e3e7d1 5%, #d3ded8 15%, #a7c1cb 30%, #79899a 50%, #5d7381);
+}
+
+.gradient-8 {
+    animation: seven 60s;
+    background: linear-gradient(2deg, #b6c0c1, #a6b9c8 10%, #91a7c0 15%, #6d92b3 25%, #506b92 50%, #365073 75%, #2f4868);
+}
+
+.gradient-9 {
+    animation: eight 60s;
+    background: linear-gradient(2deg, #e3e6e9, #d0deef 10%, #b8ceeb 20%, #92afd8 30%, #88a4ce 40%, #5f7fac 55%, #37486b);
+}
+
+.container {
+    flex-direction: row;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.full {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+.box {
+  background: red;
+  cursor: pointer;
+  height: 250px;
+  line-height: 200px;
+  text-align: center;
+  transition-property: background, border-radius;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 250px;
+  position: relative;
+  padding: 10px;
+  margin: 0 auto;
+  border: 5px solid black
+}
+.box:hover {
+  background: #ff7b29;
+  border-radius: 25%;
+}
+
+.cover-background {
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
