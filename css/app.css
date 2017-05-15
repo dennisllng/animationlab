@@ -10,7 +10,11 @@ h4 {
     font-size: 15px;
     text-align: center;
 }
-
+p{
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
 .oswald {
     font-family: 'Oswald', sans-serif;
 }
